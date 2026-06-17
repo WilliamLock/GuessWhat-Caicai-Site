@@ -32,6 +32,12 @@
       gap: 36px;
       align-items: center;
     }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+      margin-top: 42px;
+    }
     .eyebrow {
       margin: 0 0 10px;
       color: #6a6258;
@@ -53,6 +59,7 @@
     @media (max-width: 820px) {
       main { padding-top: 42px; }
       .hero { grid-template-columns: 1fr; gap: 28px; }
+      .gallery { grid-template-columns: 1fr; margin-top: 28px; }
     }
   </style>
 </head>
@@ -69,6 +76,10 @@
         </nav>
       </div>
       <img class="screenshot" src="assets/introduction-screenshot.png" alt="GuessWhat? 猜-猜玩法介绍截图，展示答对向前倾、跳过向后倾的手势说明。">
+    </section>
+    <section class="gallery" aria-label="应用截图">
+      <img class="screenshot" src="assets/category-selection.png" alt="GuessWhat? 猜-猜牌组选择页面截图，展示动物世界、中国美食、成语挑战和三国人物牌组。">
+      <img class="screenshot" src="assets/game-card-wide.png" alt="GuessWhat? 猜-猜游戏页面截图，展示计时器和大号中文词卡。">
     </section>
   </main>
 </body>
