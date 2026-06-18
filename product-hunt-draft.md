@@ -9,6 +9,12 @@ https://apps.apple.com/us/app/guesswhat-%E7%8C%9C-%E7%8C%9C/id6775619358
 Product site:
 https://williamlock.github.io/GuessWhat-Caicai-Site/
 
+Product Hunt launch:
+https://www.producthunt.com/products/guesswhat-2?launch=guesswhat-2
+
+Launch date:
+June 21, 2026 at 12:01 AM PDT
+
 Thumbnail:
 https://williamlock.github.io/GuessWhat-Caicai-Site/assets/product-hunt-thumbnail.png
 
